@@ -8,6 +8,5 @@ function forLoop(array) {
   }
   return array
 }
-const array = [];
-const out = forLoop(array)
-console.log(out)
+const result = forLoop([])
+console.log(result)
